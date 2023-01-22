@@ -7,17 +7,21 @@ Username or email
 //*[@placeholder = 'Username or email']
 //input[@name = 'usernameOrEmail']
 #defaultLoginFormUsername
+//form/input[1]
 
 Password
 [name = 'password']
 #defaultLoginFormPassword
+//form/input[2]
 
 Remember me
 //div[@class = 'remember-me']
 //input[@formcontrolname= 'rememberMe']
+//input[contains(@class,'remember-me-button ng-pristine')]
 
 Sign in button
 #sign-in-button
+//*[@id="sign-in-button"]
 
 Register
 //*[@class= 'color-black']
