@@ -7,14 +7,23 @@ Username or email
 //*[@placeholder = 'Username or email']
 //input[@name = 'usernameOrEmail']
 #defaultLoginFormUsername
+<<<<<<< HEAD
+=======
+//form/input[1]
+>>>>>>> origin/main
 
 Password
 [name = 'password']
 #defaultLoginFormPassword
+<<<<<<< HEAD
+=======
+//form/input[2]
+>>>>>>> origin/main
 
 Remember me
 //div[@class = 'remember-me']
 //input[@formcontrolname= 'rememberMe']
+<<<<<<< HEAD
 
 Sign in button
 #sign-in-button
@@ -24,3 +33,29 @@ Register
 //p/a
 
 //test test3
+=======
+//input[contains(@class,'remember-me-button ng-pristine')]
+
+Sign in button
+#sign-in-button
+//*[@id="sign-in-button"]
+
+Register
+//*[@class= 'color-black']
+//p/a
+>>>>>>> origin/main
+
+//////////////////
+
+XPath:
+
+
+/html/body/app-root/div[2]/app-login/div/div/form/p[1]
+
+//*[@id="defaultLoginFormUsername"]
+//*[@id="defaultLoginFormPassword"]
+
+/html/body/app-root/div[2]/app-login/div/div/form/p[1]
+
+
+/html/body/app-root/div[2]/app-login/div/div/form/div/span
