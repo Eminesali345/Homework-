@@ -13,6 +13,7 @@ Password
 [name = 'password']
 #defaultLoginFormPassword
 //form/input[2]
+//input[@type="password"]
 
 Remember me
 //div[@class = 'remember-me']
@@ -25,4 +26,4 @@ Sign in button
 
 Register
 //*[@class= 'color-black']
-//p/a
+//p/a/
