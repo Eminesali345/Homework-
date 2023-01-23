@@ -3,7 +3,6 @@ h4
 //*[@class = 'h4 mb-4']
 
 Username or email
-
 //*[@placeholder = 'Username or email']
 //input[@name = 'usernameOrEmail']
 #defaultLoginFormUsername
@@ -26,4 +25,4 @@ Sign in button
 
 Register
 //*[@class= 'color-black']
-//p/a/
+//p/a
